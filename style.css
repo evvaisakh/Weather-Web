@@ -1,5 +1,4 @@
 body {
-    background-color: #8c52ff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
@@ -8,8 +7,16 @@ body {
     margin: 0;
 }
 
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 #weather-container {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(100, 116, 139, 0.3);
     max-width: 400px;
     padding: 20px;
     border-radius: 15px;
@@ -36,7 +43,7 @@ input {
 }
 
 button {
-    background: #debff4;
+    background: #d0a7eb;
     color: white;
     padding: 10px;
     border: none;
